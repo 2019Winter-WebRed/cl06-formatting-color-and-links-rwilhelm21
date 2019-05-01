@@ -1,0 +1,67 @@
+/*
+* Ruth Wilhelm
+* 4/11/19 
+* Unit 4 Practice: Italian Greyhounds 
+*/ 
+
+/* The universial selector */
+
+* { 
+} 
+
+/* This is the width and height of my image. It is a picture of an Italian Greyhound at the top of my page. */ 
+img {
+    width: 510px; height: 420px; 
+    float: right; 
+}
+
+/* These are the general settings for my page including the background color, font color, and font family. */ 
+body {
+    background-color: lightpink;
+    font: #0044f2; 
+    font-family: monospace; "Old Standard TT"; "Times"; 
+}
+
+h1 {
+    font-size: 150%; 
+    text-decoration: overline underline; 
+    text-align: center; 
+}
+
+p {
+    background-color: white; 
+    color: rgb(0,68, 242); 
+}
+
+a:link {
+    color: yellow; 
+    background-color: blue; 
+}
+
+a:visited {
+    color: yellow; 
+    background-color: black;  
+}
+
+a:hover, a:focus {
+    color: blue; 
+    background-color: yellow; 
+}
+
+/* These are settings for my header which is the title and introduction to my topic. */ 
+header { 
+    background-color: blue; 
+    color: azure;  
+}
+
+/* This is the settings for my main section. This is the information about my topic so I made it yellow to stand out. */ 
+main {
+    background-color: yellow; 
+    color: black; 
+}
+
+/* This footer concludes my page. */ 
+footer {
+    background-color: purple; 
+    color: white; 
+}
